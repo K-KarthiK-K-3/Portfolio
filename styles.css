@@ -47,6 +47,7 @@ section {
     transition: all 0.3s ease;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+
 }
 
 section:hover {
@@ -78,4 +79,17 @@ footer {
 
 section {
     animation: fadeIn 0.5s ease-in-out;
+}
+
+#profile-pic{
+    height: 150px;
+    width: 100px;
+    border-radius: 8px;
+    border-style: groove ;
+    box-shadow: inset yellow;
+}
+
+#profile-ele{
+    display: flex;
+    justify-content: space-between;
 }
