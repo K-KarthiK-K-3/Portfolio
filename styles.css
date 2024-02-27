@@ -27,6 +27,7 @@ nav ul {
 nav ul li {
     display: inline;
     margin-right: 20px;
+    align-items: center;
 }
 
 nav ul li a {
@@ -41,17 +42,18 @@ nav ul li a:hover {
 }
 
 section {
-    padding: 20px;
-    margin: 20px;
+    padding: 15px;
+    margin: 35px;
     background-color: #fff;
     transition: all 0.3s ease;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-align: justify;
 
 }
 
 section:hover {
-    transform: translateY(-5px) scale(1.05);
+    transform: translateY(-2px) scale(1.05);
     box-shadow: 0 8px 12px rgba(0,0,0,0.2);
 }
 
